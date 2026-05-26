@@ -1,12 +1,15 @@
-
-// import logo from './assets/appwise-academy.webp'
+import { Outlet } from "react-router-dom";
+import { Navbar } from "./Components/Navbar";
 
 function App() {
   
-
   return (
     <>
-      
+      <Navbar />
+
+      <main>
+        <Outlet />
+      </main>
     </>
   )
 }

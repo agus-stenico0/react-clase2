@@ -11,4 +11,17 @@
   }
 }
 
+body {
+  background: #e6e6ff;
+}
+.ql-container {
+  border: none !important;
+}
+.ql-toolbar {
+  border: none !important;
+}
+.ql-editor {
+  border: none !important;
+}
+
 /* ── Agrega aquí tus estilos globales si los necesitás ── */
