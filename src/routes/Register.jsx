@@ -1,15 +1,7 @@
-import {Navbar} from '../Components/Navbar' 
-import logo from '../assets/appwise-academy.webp'
 
 export const Register = () => {
   return (
-    <div className='bg-blue-100 min-h-screen flex flex-col'>
-        <Navbar 
-            img={logo}
-            textImg={'Appwise'}
-            secciones={['Inicio', 'Tendencias', 'Mas Populares', 'Nosotros']}
-            btnText={'Entrar 👋'} 
-        />
+    <div className='bg-indigo-100 min-h-screen flex flex-col'>
         <div className='flex-1 flex items-center justify-center'>
             <form action="#" className=' w-xs flex items-center flex-col gap-3'>
                 <h2 className='text-2xl font-bold'>
