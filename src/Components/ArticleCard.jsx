@@ -1,8 +1,8 @@
-
+import { Link } from "react-router-dom"
 
 export function ArticleCard({ post }){
     return (
-        <article className="bg-transparent px-16 my-2.5 rounded-xl overflow-hidden flex flex-row items-center w-full">
+        <article className="bg-transparent px-16 rounded-xl overflow-hidden flex flex-row items-center w-full">
             <img
                 src={post.img}
                 alt={post.title}
@@ -23,7 +23,8 @@ export function ArticleCard({ post }){
                 <p className="text-black-600 mt-2">
                     {post.desc}
                 </p>
-                <a className="text-blue-500 underline" href="">Leer mas</a>
+
+                <Link className="text-blue-500 underline" to={`/blog/${post._id}`}>Leer mas</Link>
             </div>
         </article>
     )
