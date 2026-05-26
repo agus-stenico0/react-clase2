@@ -1,14 +1,13 @@
-import { Navbar } from "../Components/Navbar";
 import { ArticleCard } from '../Components/ArticleCard'
 import { mockPosts } from '../data/mockData'
 import { IonIcon } from '@ionic/react'
 import { search } from 'ionicons/icons'
 
+
 export function Blog() {
 
     return (
-        <section className="bg-blue-50">
-            <Navbar/>
+        <section className='bg-indigo-100'>
             <h2 className='text-2xl px-16 pb-5'>Blog de Desarrollo</h2>
 
             <main className="w-full flex ">
